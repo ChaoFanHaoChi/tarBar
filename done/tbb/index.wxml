@@ -1,0 +1,19 @@
+<!--custom-tab-bar/index.wxml-->
+<view class="tabbar flex-row">
+  <block wx:for="{{list}}" wx:key="list">
+    <!-- 中间的半圆 -->
+    <view class="tabbar-item flex-column j_c {{selected==index && 'active'}}" 
+    wx:if="{{index==2}}"  
+    catchtap="switchTab1">
+      <view class="tabbar-circle">+</view>
+      <view class="tabbar-item-text">{{item.text}}</view> 
+    </view>
+    <!-- 其它tabbar -->
+    <view class="tabbar-item flex-column j_c {{selected==index && 'active'}}" 
+    wx:else data-url="{{item.pagePath}}" data-index="{{inedx}}"
+    catchtap="switchTab1" >
+      <image src="{{selected === index? item.selectedIconPath : item.iconPath}}" mode="aspectFill" class="tabbar-item-icon"/>
+      <view class="tabbar-item-text">{{item.text}}</view>
+    </view>
+  </block>
+</view>

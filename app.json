@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/play/play",
+    "pages/new/new",
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/tbb/tbb"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list":[{
+      "pagePath": "pages/home/home",
+      "iconPath": "/images/26.jpg",
+      "text": "主页"
+    },{
+      "pagePath": "pages/play/play",
+      "iconPath": "/images/26.jpg",
+      "text": "爱玩"
+    },
+    {
+      "pagePath": "pages/new/new",
+      "iconPath": "/images/26.jpg",
+      "text": "发布"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "iconPath": "/images/26.jpg",
+      "text": "消息"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "iconPath": "/images/26.jpg",
+      "text": "我的"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

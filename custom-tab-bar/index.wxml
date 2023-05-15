@@ -1,0 +1,7 @@
+<view class="tabbar">
+  <view class="item {{tabNum==item.id && 'active'}}" wx:for="{{list}}" wx:key="id" bindtap="goto" data-url="{{item.pagePath}}" data-index="{{item.id}}">
+    <!-- <i class="iconfont {{item.icon}} {{index==idx?'animation-target':''}} icon"></i> -->
+    <image class="iconfont {{tabNum==item.id && 'animation-target'}} icon" src="../images/add.png" mode=""/> 
+  </view> 
+  <!-- <view class="move" style="left:{{115+(index*210)}}rpx"></view> -->
+</view> 

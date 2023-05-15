@@ -1,0 +1,16 @@
+/* pages/message/message.wxss */
+page{
+  padding-bottom: calc(constant(safe-area-inset-bottom)+170rpx);
+  padding-bottom: calc(env(safe-area-inset-bottom)+170rpx);
+  background: rgba(57,179,74,.3);
+}
+
+.head-title{
+  background: linear-gradient(to right,#ef629f,#eecda3);
+  height: 300rpx;
+  width: 100%;
+  border-style: border-box;
+  padding: 20rpx;
+  font-size: 25rpx;
+  color: #fff;
+}
