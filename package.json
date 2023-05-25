@@ -2,5 +2,27 @@
   "dependencies": {
     "mobx-miniprogram": "^4.13.2",
     "mobx-miniprogram-bindings": "^1.2.1"
-  }
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.3",
+    "commitizen": "^4.3.0",
+    "commitlint": "^17.6.3",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "name": "tabbar",
+  "version": "1.0.0",
+  "main": ".cz-config.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

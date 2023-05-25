@@ -46,11 +46,11 @@ Component({
       tabNum:'tabNum'
     },
     actions:{
-      setTabNum:'setTabNum'
+      setTabNum : 'setTabNum'
     }
   },
 /**
- * 组件的方法列表
+ * 组件的方法列表111
  */
   methods:{
     switchTab1(e){
